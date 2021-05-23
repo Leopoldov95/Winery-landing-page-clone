@@ -4,6 +4,8 @@ $secondary-color: #f7f5f0;
 $bg-light: #f1efe5;
 $dark-color: #252f38;
 $light-color: #cbd5e0;
+$form-color: #a49a7f;
+$form-border: #ddd8c8;
 $transition-duration: 0.05s;
 $transition-delay: 0.05s;
 $items: 4;
@@ -16,6 +18,12 @@ $items: 4;
 .btn {
   padding: 0.5rem 1rem;
   border: solid white 1px;
+}
+
+.btn-button {
+  margin: 2rem;
+  background-color: $primary-color;
+  color: $secondary-color;
 }
 
 .btn-dark {
@@ -111,14 +119,14 @@ $items: 4;
   }
 }
 
-.icon-round{
+.icon-round {
   background-color: $primary-color;
   border-radius: 50%;
- width: 70px;
- height: 70px;
- color: $bg-light;
- font-size: 1.4rem;
- display: flex;
- justify-content: center;
- align-items: center;
+  width: 70px;
+  height: 70px;
+  color: $bg-light;
+  font-size: 1.4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

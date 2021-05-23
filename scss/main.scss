@@ -844,7 +844,7 @@ label {
   .story-images {
     flex-direction: column;
     img {
-      height: 340px;
+      height: 300px;
     }
   }
 
@@ -857,6 +857,7 @@ label {
       margin: 0;
       padding: 0 1rem;
       margin: 1rem 0;
+      width: 100%;
       div {
         a {
           font-size: 14px;
@@ -879,5 +880,20 @@ label {
 
   .career-info {
     padding: 0 1rem;
+  }
+
+  // contact form
+
+  .contact {
+    .contact-form {
+      .sub-form {
+        flex-direction: column;
+
+        div {
+          margin: 12px 0;
+          padding: 0 1rem;
+        }
+      }
+    }
   }
 }

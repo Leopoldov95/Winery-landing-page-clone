@@ -645,13 +645,14 @@ label {
   .story-images {
     flex-direction: column; }
     .story-images img {
-      height: 340px; }
+      height: 300px; }
   .brands-row-cards {
     flex-direction: column; }
     .brands-row-cards .flex-card {
       margin: 0;
       padding: 0 1rem;
-      margin: 1rem 0; }
+      margin: 1rem 0;
+      width: 100%; }
       .brands-row-cards .flex-card div a {
         font-size: 14px; }
   .eco-content {
@@ -660,4 +661,9 @@ label {
     .eco-content ul {
       padding: 0 1rem; }
   .career-info {
-    padding: 0 1rem; } }
+    padding: 0 1rem; }
+  .contact .contact-form .sub-form {
+    flex-direction: column; }
+    .contact .contact-form .sub-form div {
+      margin: 12px 0;
+      padding: 0 1rem; } }

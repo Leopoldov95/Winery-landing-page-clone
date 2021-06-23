@@ -415,8 +415,10 @@ label {
 /* ABOUT US PAGE */
 .story-images {
   display: flex;
+  justify-content: space-between;
   img {
-    height: 500px;
+    width: 33.2%;
+    height: 425px;
   }
 }
 
@@ -487,6 +489,7 @@ label {
 .eco-content {
   width: 650px;
   margin: 4rem auto;
+
   h3 {
     margin: 8px 0;
     text-align: center;
@@ -507,8 +510,9 @@ label {
   }
   li {
     text-transform: none;
-    font-size: 1.2rem;
-    line-height: 2;
+    font-size: 1.5rem;
+
+    line-height: 1.7;
   }
 
   div {
@@ -845,6 +849,7 @@ label {
     flex-direction: column;
     img {
       height: 300px;
+      width: 100%;
     }
   }
 

@@ -360,9 +360,11 @@ label {
 
 /* ABOUT US PAGE */
 .story-images {
-  display: flex; }
+  display: flex;
+  justify-content: space-between; }
   .story-images img {
-    height: 500px; }
+    width: 33.2%;
+    height: 425px; }
 
 .story-content {
   display: grid;
@@ -431,8 +433,8 @@ label {
     list-style: disc; }
   .eco-content li {
     text-transform: none;
-    font-size: 1.2rem;
-    line-height: 2; }
+    font-size: 1.5rem;
+    line-height: 1.7; }
   .eco-content div {
     margin: 2rem 0; }
   .eco-content .eco-conserv li {
@@ -645,7 +647,8 @@ label {
   .story-images {
     flex-direction: column; }
     .story-images img {
-      height: 300px; }
+      height: 300px;
+      width: 100%; }
   .brands-row-cards {
     flex-direction: column; }
     .brands-row-cards .flex-card {

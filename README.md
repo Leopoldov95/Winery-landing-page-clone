@@ -1,4 +1,4 @@
-# 🍷 Tonne Winery 🍇
+# 🍷 Tonne Winery
 ## Table of Contents
 * [General Info](#general-info)
 * [Usage](#usage)

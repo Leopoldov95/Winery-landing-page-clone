@@ -1,4 +1,6 @@
 # 🍷 Tonne Winery
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/036dc171-0d24-4b0d-b3b6-becb3abf8a01/deploy-status)](https://app.netlify.com/sites/tonne-winery-project/deploys)
 ## Table of Contents
 * [General Info](#general-info)
 * [Usage](#usage)

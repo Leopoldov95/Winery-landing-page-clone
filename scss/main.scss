@@ -320,27 +320,6 @@ label {
         }
       }
     }
-
-    .news-nav {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      padding: 2rem 1rem 0 1rem;
-      a {
-        color: $primary-color;
-        font-size: 1.3rem;
-      }
-
-      .news-arrow *:first-child {
-        padding-right: 0.7rem;
-      }
-
-      .news-extra {
-        i {
-          padding-left: 0.5rem;
-        }
-      }
-    }
   }
 }
 
@@ -426,8 +405,8 @@ label {
   display: flex;
   justify-content: space-between;
   img {
-    width: 33.2%;
-    height: 425px;
+    width: 33.33%;
+    height: 100%;
   }
 }
 
@@ -639,10 +618,6 @@ label {
     padding: 0 1rem;
   }
 
-  .story-images img {
-    height: 160px;
-  }
-
   .brands-quote {
     padding: 0 1rem;
   }
@@ -791,11 +766,11 @@ label {
         transition: all 0.5s ease-in-out;
       }
       &:before {
-        transform: translateY(-16px);
+        transform: translateY(-10px);
       }
 
       &:after {
-        transform: translateY(16px);
+        transform: translateY(10px);
       }
     }
   }
@@ -845,7 +820,6 @@ label {
   .story-images {
     flex-direction: column;
     img {
-      height: 300px;
       width: 100%;
     }
   }
